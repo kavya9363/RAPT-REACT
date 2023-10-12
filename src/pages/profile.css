@@ -1,0 +1,14 @@
+.column{
+    text-align: center;
+}
+.profilepic{
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+html{
+    background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+    background-size: cover;
+}

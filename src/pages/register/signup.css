@@ -1,0 +1,64 @@
+#register, #login {
+    width: 400px;
+    padding: 0px 15px 15px 15px;
+    border-radius: 5px;
+    font-family: arial;
+    line-height: 16px;
+    color: #333333;
+    font-size: 14px;
+    margin: 100px auto;
+    background: rgb(96,176,244);
+background: linear-gradient(45deg, rgba(96,176,244,0.43760206719406514) 30%, rgba(95,203,244,0.24712587671787467) 58%);
+  }
+  
+.boxes{
+  border-radius: 8px;
+  background-color: rgb(191, 232, 251);
+}
+
+.title{
+    font-size:x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333333;
+    text-shadow: none;
+    text-align: center;
+}
+
+  form label, form input {
+    display: block;
+    /* margin-bottom: 10px; */
+    width: 90%
+  }
+
+  html{
+    background:url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+    background-size: cover;
+  }
+  
+  form input {
+    padding: 10px;
+    border: solid 1px #99bdfb;
+  
+  }
+
+  
+  
+  .button1 {
+    background-color: #00BFFF;
+    border-color: #3ac162;
+    font-weight: bold;
+    padding: 12px 15px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .errorMsg {
+    color: #cc0000;
+    margin-bottom: 12px;
+  }
+  
+  .sucessMsg {
+    color: #6B8E23;
+    margin-bottom: 10px;
+  }
+

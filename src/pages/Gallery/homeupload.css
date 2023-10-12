@@ -1,0 +1,23 @@
+.upload-header {
+    background-image: url("https://res.cloudinary.com/drftzm08t/image/upload/v1669714221/samples/landscapes/beach-boat.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.DoubleArrowLeftIcon{
+    font-size:xx-large;
+}
+
+.Arrow-div{
+    display:flex;
+    top:100%;
+}
+
+.DoubleArrowLeftIcon{
+    size: 500px;
+}

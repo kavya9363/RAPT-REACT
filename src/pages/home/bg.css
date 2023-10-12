@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .bg-video-wrap {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+  }
+  video {
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+  }
+  
+  .overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(53,183,255);
+  background: linear-gradient(90deg, rgba(33, 171, 245, 0.744) 0%, rgba(128, 210, 255, 0.379) 100%, rgba(83,194,255,0.04012027174150912) 100%);
+    background-size: 3px 3px;
+    z-index: 2;
+  }

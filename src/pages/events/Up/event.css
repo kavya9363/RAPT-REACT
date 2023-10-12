@@ -1,0 +1,176 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body1 {
+  background-color: #e4e4e6;
+ 
+}
+
+.container1 {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  gap: 30px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 350px) {
+  .container1 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card11 svg {
+  fill:rgb(247, 70, 141);
+}
+
+.card11 {
+ background-color: rgb(74, 155, 199);
+  max-width: 350px;
+  padding: 3em 2.5em 1.25em;
+  color:white;
+  box-shadow: 1px 1px 1px 1px rgb(126, 126, 134);
+  transition: ease-in-out 250ms;
+}
+
+.card11:hover,
+.card11:focus {
+  transform: scale(1.02); 
+}
+
+.card11-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 300px) {
+  .card11-title {
+    flex-direction: column;
+  }
+}
+
+.card11-title svg {
+  width: 25px;
+}
+
+.card11 h2 {
+  position: relative;
+}
+
+.marketing-hub::after,
+.service-hub::after {
+  position: absolute;
+  top: 0;
+  font-size: .75rem;
+  font-weight: 400;
+}
+
+@media (max-width: 350px) {
+  .marketing-hub::after {
+    top: 35px; 
+  }
+}
+
+@media (max-width: 375px) {
+    .operations-hub::after {
+    right: -16px;
+  }
+}
+
+.sales-hub::before,
+.cms-hub::before,
+.operations-hub::before {
+  position: absolute;
+  top: 1px;
+  right: -12px;
+  font-size: .75rem;
+  font-weight: 400;
+}
+
+.sales-hub::after,
+.cms-hub::after,
+.operations-hub::after {
+  position: absolute;
+  top: 0;
+  height: 16px;
+  width: 16px;
+  border: 1px black solid;
+  border-radius: 50%;
+}
+
+.card1-title h2 {
+  font-size: 1.75rem;
+}
+
+.card11 p {
+  margin: 1rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #757575;
+}
+
+.card11 h3 {
+  font-weight: 400;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-list li {
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.flex-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.card11 ul svg {
+  width: 20px;
+}
+
+.button {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 10px;
+  border: none;
+  outline: none;
+   
+  background:  rgb(247, 70, 141);
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  z-index: 1000;
+  transition: ease-in-out 250ms;
+}
+
+.button:hover,
+.button:focus {
+  background: hsl(22, 76%, 75%);
+}
+.forimage{
+  align-items: center;
+  position: relative;
+  object-position: center;
+  object-fit:inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 350px;
+  width: 25px;
+
+}
